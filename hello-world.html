@@ -8,11 +8,27 @@
     <title>Hello World</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Olá mundo, estou iniciando o meu repositório de forma colaborativa</p>
-    <h1>Hello World novamente</h1>
-    <p>Olá mundo, estou iniciando o meu repositório de forma colaborativa</p>
-    <h1>Hello World mais uma vez</h1>
-    <p>Olá mundo, estou iniciando o meu repositório de forma colaborativa</p>
+    <script>
+      
+        alert("Ola, esse hello world está diferente, é você quem vai escrever, blz?")
+        var nome = prompt("Escreva Hello World")
+        if(nome == "hello world" || nome == "HELLO WORLD" ){
+            var nomeU = document.createElement("p2");
+        nomeU.textContent = nome;
+        document.body.innerHTML = 
+        "<h1> Hello World  </h1>" +
+        "<h2> Oi " + nome.toUpperCase(); + ", </h2>" + "<p3> Perfeito, você escreveu corretamente!  </p3>" + "<br>" + "<p3> Digite '1' para VERDADEIRO e '2' para FALSO </p3>"
+       
+        } else {
+            alert("Digite tudo minúsculo ou maiusculo e a frase corretamente");
+            return;
+        }
+        
+   
+            
+                   
+    </script>
 </body>
 </html>
+
+
